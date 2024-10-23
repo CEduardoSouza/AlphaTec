@@ -1,0 +1,233 @@
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+ 
+p {
+    font-size: 17px;
+}
+th {
+   color: rgb(67, 67, 250)
+}
+
+td {
+  color: blue;
+}
+
+span {
+  font-weight: bold;
+  color: #2f86d6;
+}
+
+.tr_preco {
+  height: 30px;
+}
+
+
+table {
+  width: 100%;
+  /* Faz a tabela ocupar 100% do contêiner */
+  border-collapse: collapse;
+  /* Remove espaçamento entre células */
+}
+
+th,
+td {
+  padding: 5px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 12px;
+  /* Ajuste do tamanho da fonte */
+}
+
+#font_color {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  /* Para telas menores, ajusta a fonte e padding */
+  th,
+  td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+}
+
+.container_cab_pla {
+  display: flex;
+  width: 100%;
+  height: 140px;
+  background-color: #2f86d6;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  align-items: center;
+  /* Centraliza verticalmente os itens no cabeçalho */
+}
+.container_cab_pla img {
+  max-width: 300px;
+}
+/* Centralizar a tabela e torná-la responsiva */
+
+.div_cab2_pla {
+  display: flex;
+  justify-content: flex-end;
+  /* Alinha o menu à direita */
+  width: 100%;
+  /* Ocupar toda a largura para que o menu vá para a direita */
+}
+.container_cab_pla a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0 25px;
+  /* Espaçamento entre os links */
+  line-height: 130px;
+  /* Centraliza verticalmente o texto */
+}
+
+/*TABELA*/
+.conteudo-principal {
+  padding: 100px 0px;
+}
+
+.conteudo-principal table{
+  margin: auto;
+}
+
+.celula-escondida {
+  visibility: hidden;
+}
+
+.celula-cabeçalho {
+  text-align: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #f1f3f7;
+  border-right: 1px solid #f1f3f7;
+  background-color: #f1f3f7;
+}
+
+.celula-cabeçalho p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a8a4a4;
+}
+
+.celula-cabeçalho h2 {
+  font-size: 36px;
+}
+
+table tbody td {
+  text-align: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #f1f3f7;
+  border-right: 1px solid #f1f3f7;
+}
+
+.primeira-celula {
+  background-color: #f1f3f7;
+  font-weight: 500;
+  text-align: left;
+}
+
+.marcador-azul {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  background-color: #2f86d6;
+  border-radius: 100px;
+}
+/*FIM TABELA*/
+
+
+/*RODAPE*/
+
+.rodape {
+  height: 150px;
+  position: relative;
+  padding: 1%;
+}
+
+.rodape img {
+  width: 100px;
+  text-align: center;
+  position: absolute;
+  left: 15%;
+}
+
+.rodape_titulo {
+  position: absolute;
+  left: 21%;
+  padding: 0.5%;
+}
+
+.rodape p {
+  font-size: 14px;
+  text-align: center;  
+}
+
+.rodape_desenvolvedor_planos {
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  margin-top: 1%;
+}
+
+/*PAGINA PLANOS logo azul*/
+.div_rodape_azul {    
+  text-align: center;
+  color: black;
+  margin-left: 20px;  
+  position: absolute;
+  left: 44%;
+}
+
+.rodape_azul {
+  display: flex;
+  width: 100%; 
+  height: 150px;   
+  background-color: #2f86d6; 
+  padding-top: 2%;
+  padding-bottom: 2%;       
+  position: relative;    
+}
+
+.rodape_azul img {
+  width: 90px;
+  position: absolute;
+  left: 40%;
+}
+
+.p {
+  color: #fff;
+}
+.container_cab_pla a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 25px;    
+  justify-content: space-between;    
+}
+
+.marcador_azul { 
+  width: 5px;
+  height: 5px;
+  background-color: #2f86d6;
+  border-radius: 80%;
+  margin: 5px; /*espaçamento entre o círculo e o conteúdo*/
+}
+
+
+
+
+
+
+
+
+
